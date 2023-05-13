@@ -1,8 +1,8 @@
 import 'package:dio/dio.dart';
-import 'package:knvlpack_inventory_info/data/preferences_data.dart';
-import 'package:knvlpack_inventory_info/network/api_list.dart';
-import 'package:knvlpack_inventory_info/network/custom_interceptor.dart';
-import 'package:knvlpack_inventory_info/network/karnival_repository.dart';
+import 'package:${{{name.snakeCase()}}}/data/preferences_data.dart';
+import 'package:${{{name.snakeCase()}}}/network/api_list.dart';
+import 'package:${{{name.snakeCase()}}}/network/custom_interceptor.dart';
+import 'package:${{{name.snakeCase()}}}/network/karnival_repository.dart';
 
 class {{name.pascalCase()}}RepoImpl implements {{name.pascalCase()}}Repository {
   final Dio _dio =
