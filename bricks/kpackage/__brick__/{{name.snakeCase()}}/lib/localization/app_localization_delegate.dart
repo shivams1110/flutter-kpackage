@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:${{{name.snakeCase()}}}/localization/app_localizations.dart';
+import 'package:{{name.snakeCase()}}/localization/app_localizations.dart';
 
 class AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {
   const AppLocalizationsDelegate();

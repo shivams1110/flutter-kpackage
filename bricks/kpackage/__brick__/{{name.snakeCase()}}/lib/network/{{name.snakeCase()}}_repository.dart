@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
 
-abstract class KarnivalRepository {
+abstract class {{name.pascalCase()}}Repository {
  
 }

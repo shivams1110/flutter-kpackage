@@ -2,10 +2,10 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:${{{name.snakeCase()}}}/data/preferences_data.dart';
-import 'package:${{{name.snakeCase()}}}/native_bridge/flutter_method_channel.dart';
-import 'package:${{{name.snakeCase()}}}/navigation/navigation_service.dart';
-import 'package:${{{name.snakeCase()}}}/router/route_screen.dart';
+import 'package:{{name.snakeCase()}}/data/preferences_data.dart';
+import 'package:{{name.snakeCase()}}/native_bridge/flutter_method_channel.dart';
+import 'package:{{name.snakeCase()}}/navigation/navigation_service.dart';
+import 'package:{{name.snakeCase()}}/router/route_screen.dart';
 
 
 class AppUtils {

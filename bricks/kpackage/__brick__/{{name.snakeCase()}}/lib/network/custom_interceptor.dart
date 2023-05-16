@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
-import 'package:${{{name.snakeCase()}}}/data/preferences_data.dart';
-import 'package:${{{name.snakeCase()}}}/network/api_list.dart';
-import 'package:${{{name.snakeCase()}}}/utils/app_utils.dart';
+import 'package:{{name.snakeCase()}}/data/preferences_data.dart';
+import 'package:{{name.snakeCase()}}/network/api_list.dart';
+import 'package:{{name.snakeCase()}}/utils/app_utils.dart';
 
 class CustomInterceptor extends Interceptor {
   Dio? dio;

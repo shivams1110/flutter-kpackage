@@ -1,7 +1,7 @@
 import 'package:flutter/services.dart';
 
 class FlutterMethodChannel {
-  static const channelName = '${{{name.snakeCase()}}}'; // this channel name needs to match the one in Native method channel
+  static const channelName = '{{name.snakeCase()}}'; // this channel name needs to match the one in Native method channel
   static const String METHOD_NAME = "methodName";
 
   static FlutterMethodChannel? _instance;

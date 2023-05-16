@@ -1,5 +1,5 @@
-import 'package:${{{name.snakeCase()}}}/constant/string_constant.dart';
-import 'package:${{{name.snakeCase()}}}/data/shared_preferences.dart';
+import 'package:{{name.snakeCase()}}/constant/string_constant.dart';
+import 'package:{{name.snakeCase()}}/data/shared_preferences.dart';
 
 class PreferencesData {
  
